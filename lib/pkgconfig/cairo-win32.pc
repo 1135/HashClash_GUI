@@ -1,0 +1,12 @@
+prefix=c:/devel/target/1cf30f14f8baf2b0be0e91bcbe2d03ff
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: cairo-win32
+Description: Microsoft Windows surface backend for cairo graphics library
+Version: 1.8.10
+
+Requires: cairo 
+Libs: 
+Cflags: -I${includedir}/cairo 
